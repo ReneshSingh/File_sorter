@@ -3,12 +3,12 @@ This program reads in a file and sorts it using the user’s choice of provided al
 
 Technical information
 • Using the Qt language and the following design patens:
-MVC (Model View Controller)
-Reflection
-Singleton
-Serialization
-Inheritance/ polymorphism
-Memento
+	*MVC (Model View Controller)
+	*Reflection
+	*Singleton
+	*Serialization
+	*Inheritance/ polymorphism
+	*Memento
 Abstraction
 • The program reads the file and writes the output to a new file in the same location using a defined naming convention.
 • The program implements the users’ choice of two sorting algorithm and displayed the file name along with the time taken to sort the file in the GUI.
