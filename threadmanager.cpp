@@ -54,7 +54,6 @@ ThreadManager::~ThreadManager(){
     numThreads->clear();
     delete numThreads;
     delete threadPool;
-    delete tmm;
 }
 ThreadManager* ThreadManager::tmm=0;
 ThreadManager* ThreadManager::instance(QObject *parent){

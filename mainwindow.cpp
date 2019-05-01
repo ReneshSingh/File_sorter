@@ -6,7 +6,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     tm = ThreadManager::instance(qApp);
-    //tm = new ThreadManager(qApp);
     d = new QDialog(this);
     v = new QVBoxLayout(d);
     l = new QLabel(d);
@@ -57,7 +56,6 @@ void MainWindow::errorDis(QString msg){
     d->show();
 }
 void MainWindow::enableUI(){
-    //d->close();
     ui->centralWidget->setEnabled(true);
     fq->setHidden(true);
     pb->setText("Ok");

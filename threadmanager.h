@@ -12,7 +12,6 @@ class ThreadManager : public QObject
 {
     Q_OBJECT
 public:
-    //explicit ThreadManager(QObject *parent);
     ~ThreadManager();
     static ThreadManager* instance(QObject *parent);
     virtual bool processFile(const QString & fn, const int & sortAlgorithm);
